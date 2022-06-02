@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1FF1F78D27918FF5008276C0 /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF1F78D27918FF5008276C0 /* BasicCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF1F79027918FF5008276C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FF1F79227918FF5008276C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1FF1F79427918FF5008276C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		1FF1F78E27918FF5008276C0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1FF1F78D27918FF5008276C0 /* FirstApp.app */,
+				1FF1F78D27918FF5008276C0 /* BasicCalculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1FF1F78C27918FF5008276C0 /* FirstApp */ = {
+		1FF1F78C27918FF5008276C0 /* BasicCalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FF1F7A127918FF6008276C0 /* Build configuration list for PBXNativeTarget "FirstApp" */;
+			buildConfigurationList = 1FF1F7A127918FF6008276C0 /* Build configuration list for PBXNativeTarget "BasicCalculator" */;
 			buildPhases = (
 				1FF1F78927918FF5008276C0 /* Sources */,
 				1FF1F78A27918FF5008276C0 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = FirstApp;
+			name = BasicCalculator;
 			productName = FirstApp;
-			productReference = 1FF1F78D27918FF5008276C0 /* FirstApp.app */;
+			productReference = 1FF1F78D27918FF5008276C0 /* BasicCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1FF1F78827918FF5008276C0 /* Build configuration list for PBXProject "FirstApp" */;
+			buildConfigurationList = 1FF1F78827918FF5008276C0 /* Build configuration list for PBXProject "BasicCalculator" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1FF1F78C27918FF5008276C0 /* FirstApp */,
+				1FF1F78C27918FF5008276C0 /* BasicCalculator */,
 			);
 		};
 /* End PBXProject section */
@@ -217,7 +217,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +272,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -341,7 +341,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1FF1F78827918FF5008276C0 /* Build configuration list for PBXProject "FirstApp" */ = {
+		1FF1F78827918FF5008276C0 /* Build configuration list for PBXProject "BasicCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FF1F79F27918FF6008276C0 /* Debug */,
@@ -350,7 +350,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1FF1F7A127918FF6008276C0 /* Build configuration list for PBXNativeTarget "FirstApp" */ = {
+		1FF1F7A127918FF6008276C0 /* Build configuration list for PBXNativeTarget "BasicCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FF1F7A227918FF6008276C0 /* Debug */,
